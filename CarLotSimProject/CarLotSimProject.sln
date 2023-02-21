@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLotSimProject", "CarLotSimProject.csproj", "{B08225F5-45ED-44C8-87ED-205C9BDE8EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLotSimTests", "..\CarLotSimTests\CarLotSimTests.csproj", "{5D04B043-877D-4C70-9BE8-71544923F906}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B08225F5-45ED-44C8-87ED-205C9BDE8EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08225F5-45ED-44C8-87ED-205C9BDE8EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08225F5-45ED-44C8-87ED-205C9BDE8EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08225F5-45ED-44C8-87ED-205C9BDE8EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D04B043-877D-4C70-9BE8-71544923F906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D04B043-877D-4C70-9BE8-71544923F906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D04B043-877D-4C70-9BE8-71544923F906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D04B043-877D-4C70-9BE8-71544923F906}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8A82CE8-4553-4AB2-8447-A9F60C86B4D7}
+	EndGlobalSection
+EndGlobal

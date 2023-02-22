@@ -8,8 +8,13 @@ namespace CarLotSimProject
 {
     public class Electric : Car
     {
-        public Electric()
+        public Electric(string make, string model, int year, int price, bool newOrUsed)
         {
+            Make = make;
+            Model = model;
+            Year = year;
+            PriceInDollars = price;
+            New = newOrUsed;
             Electric = true;
         }
         public override void Start()

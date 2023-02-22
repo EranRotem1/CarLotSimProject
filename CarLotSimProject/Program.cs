@@ -1,16 +1,18 @@
-﻿namespace CarLotSimProject
+﻿using System.Reflection;
+
+namespace CarLotSimProject
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            var car1 = CarFactory.MakeCar("");
+            var car1 = CarFactory.MakeCar();
             Console.WriteLine(CarLot.cars.Count);
 
-            var suv1 = CarFactory.MakeCar("suv");
+            var suv1 = CarFactory.MakeCar();
             Console.WriteLine(CarLot.cars.Count);
 
-            var car2 = new Truck() { Make = "Ram", Model = "X", TruckBed = true, Electric = false, New = false, PriceInDollars = 32000, Year = 2017 };
+            var car2 = new Truck("Ram","X", 2017, 32000, false, true);
             Console.WriteLine(CarLot.cars.Count);
             CarLot.PrintDetails();
         }

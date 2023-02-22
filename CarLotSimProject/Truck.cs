@@ -10,6 +10,15 @@ namespace CarLotSimProject
     {
         public bool TruckBed { get; set; }
 
+        public Truck(string make, string model, int year, int price, bool newOrUsed, bool truckBed)
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+            PriceInDollars = price;
+            New = newOrUsed;
+            TruckBed = truckBed;
+        }
         public override void Start()
         {
             Console.WriteLine("Baaaah!");

@@ -13,11 +13,13 @@ namespace CarLotSimProject
         {
             foreach (Car car in cars)
             {
-                Console.WriteLine($"{car} Details: ");
+                Console.WriteLine($"Car Details:\n ");
             }
 
 
         }
-
+        
+            
+        
     }
 }
